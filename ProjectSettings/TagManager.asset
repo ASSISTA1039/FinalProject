@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Attack
+  - PlayerBody
+  - Enemy_Controller
+  - Ground
+  - Door
+  - Bullet
+  - Enemy3
+  - Spike
+  - TransitionStartPoint
+  - Key
+  - ceiling
+  - zhidian
+  - Mogu
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Camera
+  - Water
+  - UI
+  - BrokenWall
+  - Ignore Player
+  - Ground
+  - Wall
+  - Water
+  - Player
+  - Enemy
+  - Enemy_Controller
+  - Damageable
+  - Dead
+  - ShakingLight
+  - Test_Land
+  - BOSS
+  - Save
+  - Item
+  - ShakingFromEnemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background4
+    uniqueID: 3902759725
+    locked: 0
+  - name: Background3
+    uniqueID: 398913851
+    locked: 0
+  - name: Background2
+    uniqueID: 1350546093
+    locked: 0
+  - name: Background1
+    uniqueID: 4259358025
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Midground
+    uniqueID: 1944112843
+    locked: 0
+  - name: Player
+    uniqueID: 2625030751
+    locked: 0
+  - name: Foreground
+    uniqueID: 2735127107
+    locked: 0
+  - name: Foreground1
+    uniqueID: 3138243917
+    locked: 0
+  - name: Foreground2
+    uniqueID: 2461578891
+    locked: 0

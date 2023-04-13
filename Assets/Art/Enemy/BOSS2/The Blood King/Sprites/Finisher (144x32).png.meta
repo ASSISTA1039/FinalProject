@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 6a09a6ad73a424b4ea528fc310fd10cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1800208776206140539
+    second: Finisher (64x32)_0
+  - first:
+      213: -6487842743531367872
+    second: Finisher (64x32)_1
+  - first:
+      213: -6589765934325775183
+    second: Finisher (64x32)_2
+  - first:
+      213: 8600014677088349411
+    second: Finisher (64x32)_3
+  - first:
+      213: 2692385572046043142
+    second: Finisher (64x32)_4
+  - first:
+      213: 3866564275763607839
+    second: Finisher (64x32)_5
+  - first:
+      213: 9139749108626816598
+    second: Finisher (64x32)_6
+  - first:
+      213: -4284857865251381072
+    second: Finisher (64x32)_7
+  - first:
+      213: 7997138054934374696
+    second: Finisher (64x32)_8
+  - first:
+      213: 8108939819773811340
+    second: Finisher (64x32)_9
+  - first:
+      213: 30326300454064584
+    second: Finisher (64x32)_10
+  - first:
+      213: -3195698010903315261
+    second: Finisher (64x32)_11
+  - first:
+      213: -3547208860654858045
+    second: Finisher (64x32)_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 7
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Finisher (144x32)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab880132340c0043986929931f393fd
+      internalID: 1128207431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af118cdfbb69e24a8e74ce3245eadda
+      internalID: -408815198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6e194fa57a32b4a8810f0d58d04b62
+      internalID: 702972985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 711
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902b6c0b0d16a094dbd5b8b109805585
+      internalID: -1524842564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2781b6fbb32e8144981ea6f09f6d13ae
+      internalID: 218216541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4dadc6205816a4da29a2d9c42f7987
+      internalID: 1542293482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff4a1710de59b045b2fce68758fea95
+      internalID: -2067733366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a2d8ea065f59c48b4ea593c95f0d32
+      internalID: -1178493681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699366807c7906942bfc28a79585c298
+      internalID: -286750062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d77ebda2a5e8b46ac5500b874d660a
+      internalID: -1725744659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097272a4ead944e4d8ae98dc7a688d13
+      internalID: -1206411960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a93ab60ba8907748a26b31de022f617
+      internalID: -1783427979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Finisher (144x32)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b69c3f7de437a4b8a01fb1cc34a86f
+      internalID: -461258568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Finisher (144x32)_4: 218216541
+      Finisher (144x32)_10: -1206411960
+      Finisher (144x32)_6: -2067733366
+      Finisher (144x32)_8: -286750062
+      Finisher (144x32)_7: -1178493681
+      Finisher (144x32)_11: -1783427979
+      Finisher (144x32)_1: -408815198
+      Finisher (144x32)_3: -1524842564
+      Finisher (144x32)_9: -1725744659
+      Finisher (144x32)_2: 702972985
+      Finisher (144x32)_12: -461258568
+      Finisher (144x32)_5: 1542293482
+      Finisher (144x32)_0: 1128207431
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

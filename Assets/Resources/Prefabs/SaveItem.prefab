@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2277680000825118528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2277680000825118530}
+  - component: {fileID: 2277680000825118531}
+  m_Layer: 0
+  m_Name: SaveItem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2277680000825118530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277680000825118528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 279.5, y: -0.6, z: -0.7909129}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2277680000825118531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277680000825118528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb6d11e1c4180f48820e06e71fc28b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myEquip: {fileID: 11400000, guid: ffeaa81d92342eb40a933cac36afa50c, type: 2}
+  myInventory: {fileID: 11400000, guid: 6e3a73e681d78464d826c25c65abfa9e, type: 2}
+  myGoodMemory: {fileID: 11400000, guid: 453dca5c38446e94e9cd505eada6ce80, type: 2}
+  myBadMemory: {fileID: 11400000, guid: d54515f9d6bff3c4885357e14070d3f3, type: 2}
+  myRcordLibrary: {fileID: 11400000, guid: eace2a04f5e469645b97bcd4e4a65673, type: 2}
+  myevent:
+  - {fileID: 11400000, guid: 2deec4acd0fae314a90ba6589ba6b95c, type: 2}
+  - {fileID: 11400000, guid: 97a11ddbc1c6df8448e957746b1b9819, type: 2}
+  - {fileID: 11400000, guid: b7ac19daaab8edb499e1ebdf78ef7f8c, type: 2}
+  - {fileID: 11400000, guid: ec1a965f148a510499cc818675edf41a, type: 2}
+  - {fileID: 11400000, guid: 22a0ea3570fba3e43ade34a015368774, type: 2}
+  - {fileID: 11400000, guid: 244656ac14db6cc4f8f393b844766608, type: 2}
+  - {fileID: 11400000, guid: 8245733adff277143834b66aa1719ae7, type: 2}
+  - {fileID: 11400000, guid: 0604b086dd172964ca3f24997956626f, type: 2}
+  - {fileID: 11400000, guid: 9703254547756cc45bfdcf1d624c77e7, type: 2}
+  - {fileID: 11400000, guid: da231ce31cb88bc47a164be41cc2f486, type: 2}
+  - {fileID: 11400000, guid: 43169d054220aa646ac8d852d678188d, type: 2}
+  pay:
+  - {fileID: 11400000, guid: 64aa020114a5d6a4db600e7595013ae0, type: 2}
+  - {fileID: 11400000, guid: baed495632c5ff843950a9158abc4756, type: 2}
+  - {fileID: 11400000, guid: 2659e9a615f93a643a8baa248a0240e4, type: 2}
+  - {fileID: 11400000, guid: 12b23c29751a6f64896837dab4528851, type: 2}
+  - {fileID: 11400000, guid: 2ce92a5733e3c2943905a9177ed8e29c, type: 2}
+  - {fileID: 11400000, guid: 798c74f03ed5ca940aeee7e664d61c0f, type: 2}
+  action:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Dictionary_Inventory, Assembly-CSharp
+        m_MethodName: OnBeforeSerialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_Record, Assembly-CSharp
+        m_MethodName: OnBeforeSerialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_BadMemory, Assembly-CSharp
+        m_MethodName: OnBeforeSerialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_GoodMemory, Assembly-CSharp
+        m_MethodName: OnBeforeSerialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Dictionary_Equip, Assembly-CSharp
+        m_MethodName: OnBeforeSerialize
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deserializeinventory:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Dictionary_Inventory, Assembly-CSharp
+        m_MethodName: DeserializeDictionary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deserializeGoodMemory:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_GoodMemory, Assembly-CSharp
+        m_MethodName: DeserializeDictionary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deserializeBadMemory:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_BadMemory, Assembly-CSharp
+        m_MethodName: DeserializeDictionary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deserializeRcord:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: DictionaryScript_Record, Assembly-CSharp
+        m_MethodName: DeserializeDictionary
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  items:
+  - {fileID: 11400000, guid: e88316570c404554a8818ec1062e2997, type: 2}
+  - {fileID: 11400000, guid: 3b1658dbc4924a748a6ffc7e0bef85d4, type: 2}
+  - {fileID: 11400000, guid: 6f3577d4815477a49848727d83ec4145, type: 2}
+  - {fileID: 11400000, guid: b8ee53edbb10c4a489c0be3040bf7701, type: 2}
+  - {fileID: 11400000, guid: 61b00f2dfb09cf94c87eaf6de4a4edff, type: 2}
+  - {fileID: 11400000, guid: bacd1b696ebafd549b2b944be40a52a2, type: 2}
+  - {fileID: 11400000, guid: ef8ed4e05edc97647a102d79c92e07cf, type: 2}
+  - {fileID: 11400000, guid: 514d9d281dcecf34497611c04e334387, type: 2}

@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 8d598a0ef620af14d99e83f566697a87
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 7
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Blood King_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1027
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccd570a26d48864db5ed5d428146c0e
+      internalID: 60110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b39682b2ea43441a09b3bb4d173259
+      internalID: -665589616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b20cd6e24686fc4f9411692dce307a3
+      internalID: -1290266151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b57a3cc2ec1b848a5c5c277c5c0c00
+      internalID: 1375231856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 711
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed93a5eb6e294644a934a18c2f28df0c
+      internalID: -1091085696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bdd2a03b943ed4e89a35ba63720ba2
+      internalID: -23877570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 553
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d364e4623c0e4409677f528868eade
+      internalID: 2113312003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba1e8a861457094d952576c7e420db5
+      internalID: -1707768732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bdd57a6c5f7274cb41eda449fb632b
+      internalID: -1799512853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75958e8bf24f13428dce9e151fe32e6
+      internalID: -761793545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbfa826c3ef43e44a559d88809808ab
+      internalID: 957268681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9caf0cb4daa8774999b7c19d2429592
+      internalID: -132447555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac49c3cb9a2020142a9e59b522a797c4
+      internalID: -412270133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Blood King_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 168
+        height: 79
+      alignment: 9
+      pivot: {x: 0.323, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb440e2ba6b6ca48a82f0f367991206
+      internalID: 1450138773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      The Blood King_10: 957268681
+      The Blood King_12: -412270133
+      The Blood King_7: -1707768732
+      The Blood King_2: -1290266151
+      The Blood King_0: 60110
+      The Blood King_3: 1375231856
+      The Blood King_1: -665589616
+      The Blood King_13: 1450138773
+      The Blood King_4: -1091085696
+      The Blood King_11: -132447555
+      The Blood King_6: 2113312003
+      The Blood King_8: -1799512853
+      The Blood King_9: -761793545
+      The Blood King_5: -23877570
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

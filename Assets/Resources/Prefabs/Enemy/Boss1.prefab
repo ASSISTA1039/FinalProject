@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &921196889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921196891}
+  - component: {fileID: 921196890}
+  m_Layer: 0
+  m_Name: Rock Spawn Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &921196891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921196889}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.0137694, y: 7.060682, z: 0.05852208}
+  m_LocalScale: {x: 0.45154062, y: 0.4515407, z: 0.4515407}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7434471907851655772}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &921196890
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921196889}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.5386314, y: -0.84776306}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 23.393875, y: 2.6955261}
+  m_EdgeRadius: 0
+--- !u!1 &1137845793529728510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1137845793529728505}
+  - component: {fileID: 1137845793529728504}
+  - component: {fileID: 1137845793529728503}
+  m_Layer: 0
+  m_Name: Boss1
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1137845793529728505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137845793529728510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.05, y: 4.3, z: 0}
+  m_LocalScale: {x: 5.5366, y: 5.4942, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7434471907851655772}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1137845793529728504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137845793529728510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 446cc82308f9faf41a1b6c805b93acff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 15
+  bloodEffect: {fileID: 1745058473522739956, guid: c8b9fd3af42e84441bb4d332b506aad9,
+    type: 3}
+--- !u!114 &1137845793529728503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137845793529728510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startWhenEnabled: 1
+  asynchronousLoad: 0
+  pauseWhenDisabled: 0
+  restartWhenComplete: 0
+  logTaskChanges: 0
+  group: 0
+  resetValuesOnRestart: 0
+  externalBehavior: {fileID: 0}
+  mBehaviorSource:
+    behaviorName: BOSS1_Behavior
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(326,-76.14281)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Repeater","NodeData":{"Offset":"(-4.00001144,105.375015)"},"ID":1,"Name":"Repeater","Instant":true,"SharedIntcount":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0},"SharedBoolrepeatForever":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedBoolendOnFailure":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Selector","NodeData":{"Offset":"(-0.00016784668,125.2083)"},"ID":2,"Name":"Selector","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-756.880066,169.4088)"},"ID":3,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Core.AI.IsHealthUnder","NodeData":{"Offset":"(-110,110)"},"ID":4,"Name":"Is
+        Health Under","Instant":true,"SharedIntHealthTreshold":{"Type":"BehaviorDesigner.Runtime.SharedInt","Name":null,"Int32mValue":0}},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(110,100.6383)"},"ID":5,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Core.AI.FaceToPlayer","NodeData":{"Offset":"(-517.011658,144.20636)"},"ID":6,"Name":"Face
+        To Player","Instant":true},{"Type":"Core.AI.FreezeTime","NodeData":{"Offset":"(-405.449066,143.2688)"},"ID":7,"Name":"Freeze
+        Time","Instant":true,"SharedFloatDuraction":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1}},{"Type":"Core.AI.Jump","NodeData":{"Offset":"(-297.636627,139.8313)"},"ID":8,"Name":"Jump","Instant":true,"SinglehorizontalForce":-4,"SinglejumpForce":10,"SinglebulidupTime":0,"SinglejumpTime":2,"StringanimationTriggerName":"Roll","BooleanshakeCameraOnLanding":false},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-186.074158,137.6438)"},"ID":9,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.SpawnMaggot","NodeData":{"Offset":"(-82.94915,144.51886)"},"ID":10,"Name":"Spawn
+        Maggot","Instant":true},{"Type":"Core.AI.FenJie_Bat","NodeData":{"Offset":"(55.6623878,136.036835)"},"ID":11,"Name":"Fen
+        Jie   Bat","Instant":true,"GameObjectprefabBat":0,"GameObjectboss":1}]}]},{"Type":"BehaviorDesigner.Runtime.Tasks.RandomSelector","NodeData":{"Offset":"(423.076477,170)"},"ID":12,"Name":"Random
+        Selector","Instant":true,"Int32seed":0,"BooleanuseSeed":false,"AbortTypeabortType":"None","Children":[{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(-370,160)"},"ID":13,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Core.AI.Jump","NodeData":{"Offset":"(-150,145)"},"ID":14,"Name":"Jump","Instant":true,"SinglehorizontalForce":3,"SinglejumpForce":20,"SinglebulidupTime":0.5,"SinglejumpTime":1.3,"StringanimationTriggerName":"Jump","BooleanshakeCameraOnLanding":true},{"Type":"Core.AI.FaceToPlayer","NodeData":{"Offset":"(0,150)"},"ID":15,"Name":"Face
+        To Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(148,152)"},"ID":16,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]},{"Type":"BehaviorDesigner.Runtime.Tasks.Sequence","NodeData":{"Offset":"(260,180)"},"ID":17,"Name":"Sequence","Instant":true,"AbortTypeabortType":"None","Children":[{"Type":"Core.AI.FaceToPlayer","NodeData":{"Offset":"(-238.6726,146.884277)"},"ID":18,"Name":"Face
+        To Player","Instant":true},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(-124.468628,148.580566)"},"ID":19,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":2},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"StartAttack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(-12.2958574,145.000122)"},"ID":20,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1.2},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"BehaviorDesigner.Runtime.Tasks.Unity.UnityAnimator.SetTrigger","NodeData":{"Offset":"(103.46962,147.5509)"},"ID":21,"Name":"Set
+        Trigger","Instant":true,"SharedGameObjecttargetGameObject":{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":null,"GameObjectmValue":3},"SharedStringparamaterName":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"Attack"}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(207.80336,148.0538)"},"ID":22,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0.1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}},{"Type":"Core.AI.Shoot","NodeData":{"Offset":"(319.910156,151.666656)"},"ID":23,"Name":"Shoot","Instant":true,"List`1weapons":[{"Type":"Core.Combat.Weapon","Value":{"TransformweaponTransform":4,"AbstractProjectileprojectilePrefab":5,"SinglehorizontalForce":5,"SingleverticalForce":4}}],"BooleanshakeCamera":true},{"Type":"Core.AI.SpawnFaLLINGrOCKS","NodeData":{"Offset":"(457.457916,153.015182)"},"ID":24,"Name":"Spawn
+        Falling Rocks","Instant":true,"Collider2DspawnAreaCollider":6,"AbstractProjectilerockPrefab":7,"Int32spawnCount":4,"SinglespawnInterval":0.3},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(600.9422,151.144867)"},"ID":25,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":false},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":1}}]}]}]}]}}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 4260830185961850986, guid: 0cd4f3e427a10f640b6a6f493a95b3e3, type: 3}
+        - {fileID: 1137845793529728510}
+        - {fileID: 7434471907851655775}
+        - {fileID: 7434471907851655775}
+        - {fileID: 1137845791645533016}
+        - {fileID: 8736164170323122916, guid: 6677573dd7d641947851f7999aaec817, type: 3}
+        - {fileID: 921196890}
+        - {fileID: 5240453509316733848, guid: ac6089116dd110941a9b9c7964742742, type: 3}
+        byteData: 
+        byteDataArray: 
+      Version: 1.7.2
+  gizmoViewMode: 3
+  showBehaviorDesignerGizmo: 1
+--- !u!1001 &1137845792463204005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1137845793529728505}
+    m_Modifications:
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7559006615654855930, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+        type: 3}
+      propertyPath: m_Name
+      value: False_Knight
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097, type: 3}
+--- !u!4 &1137845791645533016 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 818261501, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137845792463204005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1137845792455790689 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7421636, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137845792463204005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1137845792924268016 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1688034133, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137845792463204005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7434471907851655772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7559006615654855929, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137845792463204005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7434471907851655775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7559006615654855930, guid: afc326e2bcb93ee4cbb7cf8d2ae9b097,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137845792463204005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9114721205270283300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7434471907851655775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ec3595d2732004db144fab80917c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackCollider: {fileID: 1137845792924268016}
+  attackCollider_jump: {fileID: 1137845792455790689}
+  impactEffect: {fileID: 7097757957843592783, guid: acc118949b61e03489fb9bd2bb150553,
+    type: 3}
+  impactTransform: {fileID: 1137845791645533016}
+  cameraShakeIntensity: 0.2

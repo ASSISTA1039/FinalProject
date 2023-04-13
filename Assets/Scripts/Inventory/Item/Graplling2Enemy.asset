@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f0876b2beeea9247bfbf27f7620f0f9, type: 3}
+  m_Name: Graplling2Enemy
+  m_EditorClassIdentifier: 
+  itemName: GrapplingToEnemy
+  itemImage: {fileID: 21300000, guid: d3d00eb10f8e2e044ae58c085fa2d504, type: 3}
+  itemid: 6
+  buff_HP: 0
+  buff_Energy: 0
+  buff_Attack: 0
+  buff_downHP2Attack: 0
+  doubleGrappling: 0
+  Graplling2Enemy: 1
+  fireToPlayer: 0
+  itemInfo: You can lock the enemy by hooking the lock
+  equip: 0
+  pickup: 0

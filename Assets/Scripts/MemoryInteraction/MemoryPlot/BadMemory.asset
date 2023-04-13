@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d24c9015684cf5748b2ab33efa2143cc, type: 3}
+  m_Name: BadMemory
+  m_EditorClassIdentifier: 
+  index: 000000000100000002000000
+  bad_memoryList:
+  - {fileID: 11400000, guid: 93a265b08985f2c46bfc2b3a129ee897, type: 2}
+  - {fileID: 11400000, guid: 549ff087bc7743e46bdb35f878ec48c8, type: 2}
+  - {fileID: 11400000, guid: 67eadd2ac71b6a64bbba71572a01807c, type: 2}

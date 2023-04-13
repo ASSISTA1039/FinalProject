@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77a3237526b7984d91c5b4b61249053, type: 3}
+  m_Name: Record1 1
+  m_EditorClassIdentifier: 
+  Recordid: 0
+  recordImage: {fileID: 21300000, guid: 35a3340b835c797478eb139353421953, type: 3}
+  RecordInfo: 'Sample IV stopped responding to bodily functions, leaving large burn
+    marks on the surface of the head and a slight shift of the organs to the right,
+    cause of death: brain death
+
+
+    Subject V was forcibly aroused due to strong
+    environmental stimuli received by UnderWorld, exceeding the threshold of the
+    "pain factor". Note: Forced arousal can cause serious mental damage to the subject
+    and should not be used unless under exceptional circumstances.
+
+
+    Sample II
+    has ceased to function, no external features are apparent, cause of death: severe
+    internal brain damage.
+
+
+    The shaken light data still cannot be accurately
+    calculated and extracted, and the arithmetic power is largely affected by the
+    particular circumstances, which still leaves a gap in accuracy and permanence.'
+  havePickup: 1

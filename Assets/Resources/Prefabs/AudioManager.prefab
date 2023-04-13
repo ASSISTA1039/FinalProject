@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &604098626042604907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 604098626042604905}
+  - component: {fileID: 604098626042604906}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &604098626042604905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604098626042604907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 180.74974, y: 3.6198137, z: 0.0041165734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &604098626042604906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604098626042604907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e3fb1bf9ce6734081c3558cc15bf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientClip: {fileID: 8300000, guid: 2980cc14b26b38d4dac21412e93a9a55, type: 3}
+  musicClip: {fileID: 8300000, guid: 2267325ecfed8ae428120f6ff618482e, type: 3}
+  walkStepClips:
+  - {fileID: 8300000, guid: f81243e0fd4c9824c9709aaac842104b, type: 3}
+  - {fileID: 8300000, guid: 82f0ddec071656943b04f793a6e35d26, type: 3}
+  - {fileID: 8300000, guid: 0eeb2dd461f71c24b8928f7240f47c5a, type: 3}
+  - {fileID: 8300000, guid: 32aca5c58f68f554e963442f789a9ea5, type: 3}
+  attackClips:
+  - {fileID: 8300000, guid: d4fbf4340750a934facd629f731ddbe9, type: 3}
+  - {fileID: 8300000, guid: 1eeede5661e368f4cba8d1c79d95491b, type: 3}
+  - {fileID: 8300000, guid: de31195f503381e45846244bd3dd218a, type: 3}
+  - {fileID: 8300000, guid: 1dc55e59f55de424baaec2907e032c87, type: 3}
+  jumpClip: {fileID: 0}
+  dashClip: {fileID: 8300000, guid: 1eeede5661e368f4cba8d1c79d95491b, type: 3}
+  jumoVoiceClip: {fileID: 0}
